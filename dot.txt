@@ -1,0 +1,14 @@
+font
+pop-400
+pop-500
+pop-700
+robo-400
+
+pop: font-family: 'Poppins', sans-serif;
+robo: font-family: 'Roboto', sans-serif;
+
+color
+	orang - #FD511A
+	green - #21B573
+	bg - #F0FFF0
+	
