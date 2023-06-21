@@ -1,37 +1,33 @@
-/*small devices (portrait phones, less than 576px)*/
+/*Extra Small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
+
+.bh1 {
+    padding: 0;
+    font-size: 33px;
+    line-height: 50px;
 }
-.logo{
-	width: 180px;
-}
-.menu ul li a{
-	margin-bottom: 6px;
-	padding: 0px 10px !important;
-}
-/*banner start*/
 .b_text{
 	text-align: center;
+	margin-top: 10px;
 }
-.bh1 {
-    padding: 0 0px 0;
-    line-height: 52px;
-}
-.bp2{
-	line-height: 30px;
-	padding: 0 100px;
+.bp2 {
+    line-height: 28px;
 }
 .btn_link{
-	margin: 15px auto 0;
+	text-align: center;
 }
-.b_img{
-	margin-bottom: 30px;
-	padding: 0 80px;
+/*feature start*/
+.feature{
+	padding: 0 0 60px;
+}
+.s_feature{
+	margin-top: 20px;
 }
 }
 
 /*Small devices (landscape phones, 576px and up)*/
-@media(min-width: 576px) and (max-width: 767.98px) {
-header{
+@media (min-width: 576px) and (max-width: 767.98px) {
+	header{
 	padding: 5px 0;
 }
 .logo{
@@ -46,12 +42,13 @@ header{
 	text-align: center;
 }
 .bh1{
-	padding: 0 130px 0;
+	font-size: 40px;
+	padding: 0 39px 0;
 	line-height: 60px;
 }
 .bp2{
 	line-height: 30px;
-	padding: 0 100px;
+	padding: 0 50px;
 }
 .btn_link{
 	margin: 15px auto 0;
@@ -60,11 +57,18 @@ header{
 	margin-bottom: 30px;
 	padding: 0 80px;
 }
+/*feature start*/
+.feature{
+	padding: 0 0 60px;
+}
+.s_feature{
+	margin-top: 24px;
+}
 }
 
 /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991.98px) {
-/*	header start*/
+	/*	header start*/
 .menu ul li a{
 	margin-bottom: 6px;
 	padding: 0px 10px !important;
@@ -88,37 +92,40 @@ header{
 	margin-bottom: 30px;
 	padding: 0 80px;
 }
-
+/*feature start*/
+.feature{
+	padding: 0 0 80px;
+}
+.s_feature{
+	margin-top: 24px;
+}
 }
 
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) and (max-width: 1199.98px) {
-/*banner start*/
+	/*banner start*/
 .bh1{
 	padding: 0;
 	font-size: 42px;
 }
+.b_img{
+	padding: 0;
+}
 }
 
 /*Extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) and (max-width: 1399.98px) {
-
-}
+@media (min-width: 1200px) and (max-width: 1399.98px) { ... }
 
 /*Extra large devices (large desktops, 1400px and up)*/
 @media (min-width: 1400px) and (max-width: 1599.98px) {
-.bh1{
+	.bh1{
 	margin: 10px 0 20px;
 	padding: 0 110px 0 0;
 }
 }
 
 /*Extra large devices (large desktops, 1600px and up)*/
-@media (min-width: 1600px) and (max-width: 1999.98px) {
-
-}
+@media (min-width: 1600px) and (max-width: 1999.98px) { ... }
 
 /*Extra large devices (large desktops, 2000px and up)*/
-@media (min-width: 2000px) {
-	
-}
+@media (min-width: 2000px) { ... }

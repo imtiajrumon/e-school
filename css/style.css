@@ -81,8 +81,7 @@ header{
 }
 .btn_link{
 	margin-top: 15px;
-	width: 155px;
-	height: 45px;
+	padding: 12px 36px;
 	text-decoration: none;
 }
 
@@ -91,3 +90,33 @@ header{
 	width: 100%;
 }
 /*banner end*/
+/*feature start*/
+.feature{
+	padding:40px 0 100px;
+	text-align: center;
+}
+.s_feature:hover{
+	background-color: #FFFFFF;
+	box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+}
+.s_feature{
+	padding: 55px 0 50px;
+	background: #F8FFFB;
+	border-radius: 10px;
+}
+.s_img{}
+.s_img img{
+	margin-bottom: 20px;
+	width: 65px;
+	height: 75px;
+}
+.s_h2{
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 36px;
+	color: #000000;
+}
+.s_p{
+	line-height: 24px;
+}
+/*feature end*/
